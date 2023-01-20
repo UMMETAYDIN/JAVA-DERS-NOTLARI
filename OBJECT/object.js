@@ -1,7 +1,7 @@
 //data object
 
-let d= new Date();
-console.log(d);
+// let d= new Date();
+// console.log(d);
 
 ///Get methods
 
@@ -28,7 +28,16 @@ console.log(d);
 
 // 1/1/1990 tarihinden bir gün öncesini yazdırınız
 
-let tarih= new Date(`1/1/1990`);
-let dayOfMonth= tarih.getDate();
-tarih.setDate(dayOfMonth-1);
-console.log(tarih);
+// let tarih= new Date(`1/1/1990`);
+// let dayOfMonth= tarih.getDate();
+// tarih.setDate(dayOfMonth-1);
+// console.log(tarih);
+
+
+
+let person = {
+    firstName:'ümmet',
+    lastName:'Aydin',
+};
+
+console.log(person);
